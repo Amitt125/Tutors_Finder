@@ -77,7 +77,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration cfg = new CorsConfiguration();
 //        cfg.setAllowedOriginPatterns(List.of("http://localhost:4200"));
-        cfg.setAllowedOriginPatterns(List.of("https://tutor-finder-sooty.vercel.app"));
+        cfg.setAllowedOriginPatterns(List.of("https://tutor-finder-sooty.vercel."));
         cfg.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         cfg.setAllowedHeaders(List.of("*"));
         cfg.setAllowCredentials(true);
