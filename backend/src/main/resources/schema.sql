@@ -1,9 +1,12 @@
 -- ============================================================
 -- TutorFinder - MySQL 8.0 Database Schema  (v2 — fresh install)
 -- ============================================================
+--
+--CREATE DATABASE IF NOT EXISTS tutorfinder CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+--USE tutorfinder;
 
-CREATE DATABASE IF NOT EXISTS tutorfinder CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE tutorfinder;
+CREATE DATABASE IF NOT EXISTS railway CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE railway;
 
 -- ============================================================
 -- USERS
